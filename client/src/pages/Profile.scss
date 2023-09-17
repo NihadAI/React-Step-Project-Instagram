@@ -1,0 +1,88 @@
+.profile {
+    display: flex;
+    &__left {
+        display: flex;
+        height: 100vh;
+        flex: 0.2;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        flex: 0.8;
+        padding: 30px 20px;
+        background-color: #121212;
+    }
+    &__header {
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        width: 600px;
+        margin: 0 auto;
+        justify-content: space-around  ;
+        margin-bottom: 50px;
+    }
+   
+}
+
+.header__avatar {
+    margin: 0 30px 0;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__header {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.info__header svg:hover {
+    cursor: pointer;
+}
+
+.info__header button {
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.info__header button:hover {
+    cursor: pointer;
+}
+
+.info__main {
+    display: flex;
+    gap: 35px;
+}
+
+.main__buttons {
+    border-top: 0.6px solid rgba(128, 128, 128, 0.516);
+    display: flex;
+    justify-content: center;
+}
+
+.main__buttons button {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 20px;
+    color: white;
+    background: none;
+    border: none;
+    margin: 25px 10px 5px;
+    padding: 10px 15px;
+}
+
+.main__buttons button:hover {
+    cursor: pointer;
+
+}
+    

@@ -1,0 +1,77 @@
+.sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 18%;
+    &__logo {
+        width: 104px;
+        margin: 25px;
+    }
+    &__logo:hover {
+        cursor: pointer;
+    }
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    &__buttons a {
+        text-decoration: none;
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        color: white;
+        background: none;
+        border: none;
+        margin: 5px 10px;
+        padding: 10px 15px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    &__button:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.128);
+    }
+    &__button span {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 12px;
+    }
+    &__more {
+        width: 18%;
+        position: fixed;
+        bottom: 3px;
+    }
+    &__icon {
+        width: 44px;
+        height: 44px;
+     }
+     
+    &__dropdown {
+        width: 238px;
+        background-color: #262626;
+        margin: 20px;
+        border-radius: 6px;
+    }
+   
+   
+}
+
+.logout__dropdown-button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    text-align: start;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.424);
+    }
+   
+}

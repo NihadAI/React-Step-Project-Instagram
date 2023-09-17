@@ -1,0 +1,53 @@
+.suggesstions {
+    max-width: 330px;
+    & a {
+        text-decoration: none;
+    }
+}
+
+.suggesstion__username {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.username__left {
+    display: flex;
+    align-items: center;
+}
+
+.username__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.relation {
+    color: grey;
+    font-size: 12px;
+}
+
+.follow__button {
+    color: #0095f6;
+    font-weight: 700;
+    background: none;
+    border: none;
+    &:hover {
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.username {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.avatar {
+    margin-right: 10px;
+    border: none;
+    background: none;
+}
+
+.avatar:hover {
+    cursor: pointer;
+}
